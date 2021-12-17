@@ -1,0 +1,38 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class Ejerciciofibonacci {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		int x;
+		int y;
+		int suma;
+		x=teclado.nextInt();
+		y=teclado.nextInt();
+		
+		System.out.println(x+" "+ y);
+		
+		
+		for (int contador=1;contador<15;contador++) {
+			
+			suma=x+y;
+			x= y+suma;
+			System.out.println(suma);
+			
+			
+			
+			
+		}
+	
+	
+	}
+	  
+}
+/*x y (x+y)  (x+2y) (2x+3y) (3x+5y) (5x+8y)
+
+
+x+y +y
+x+y +(y+x+y)*/

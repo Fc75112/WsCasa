@@ -1,0 +1,16 @@
+package examen;
+
+import java.util.Scanner;
+
+public class ej2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado= new Scanner(System.in);
+		System.out.println("introduzca su numero de DNI");
+		int dninum= teclado.nextInt();
+		System.out.println("introduzca su letra de DNI");
+		char letra=teclado.next();
+	}
+
+}

@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package ejercicios;
+import java.util.Scanner;
+
+/**
+ * @author Antonio
+ *
+ */
+public class Ejercicio3 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int n;
+		int contador;
+		@SuppressWarnings("resource")
+		Scanner teclado=new Scanner(System.in);
+		System.out.println("Dime un numero para calcular sus divisores propios");
+		n=teclado.nextInt();
+		for(contador = n ; contador == 0 ; contador--) {
+		System.out.print(n + "");
+		System.out.print(contador + "");
+		}
+	}
+}

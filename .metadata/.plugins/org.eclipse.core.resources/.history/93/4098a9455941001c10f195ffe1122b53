@@ -1,0 +1,24 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class potencias {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Introduce la base");
+		int n= teclado.nextInt();
+		System.out.println("Introduce el exponente");
+		int e= teclado.nextInt();
+	for (int contador=1;contador<e;contador++)
+	{
+		System.out.println(n);
+		n=n*n;
+		
+	}
+	
+	
+	}
+
+}

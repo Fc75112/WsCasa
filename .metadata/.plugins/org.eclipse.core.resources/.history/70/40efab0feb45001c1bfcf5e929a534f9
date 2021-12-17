@@ -1,0 +1,25 @@
+package tema4;
+import java.util.*;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		String frase;
+		frase= teclado.nextLine();
+		
+		int caracteres= frase.length();
+		System.out.print(caracteres);
+		int contador;
+		if (caracteres<80) {
+			for (contador=1;contador<caracteres;contador++) {
+				char letra=frase.charAt(contador);
+				System.out.print(letra);
+			}
+		
+		}
+		
+	}
+
+}

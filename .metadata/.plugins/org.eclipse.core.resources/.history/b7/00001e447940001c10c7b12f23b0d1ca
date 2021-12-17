@@ -1,0 +1,35 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class Ejercicio10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		int n;
+		System.out.println("Introduce un numero");
+		n= teclado.nextInt();
+		int y=n+1;
+		boolean siguienteprimo=false;
+		
+		while (siguienteprimo==false) {
+		int contador=2;
+		boolean primo = true;
+		while (primo==true) {
+		
+			if (y%contador==0) {
+			
+					primo=false;
+			}else if(contador<=y/2+1) {
+				contador++;}
+			if(contador>y/2+1)
+					primo=false;
+			siguienteprimo=true;
+	
+		}
+		y++;
+		}
+		System.out.println(y);
+}
+}

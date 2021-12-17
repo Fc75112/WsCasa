@@ -1,0 +1,25 @@
+
+package ejercicios;
+
+import java.util.Scanner;
+
+/*Autor: yo
+ * fecha: hoy
+ * programa que calcula el factorial de un numero
+ */
+public class ejercicio8 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		int numero;
+		int factorial=1;
+		System.out.println("Introduce un numero");
+		numero= teclado.nextInt();
+		while(numero>0) {
+			factorial=numero*(numero-1);		
+			numero--;}
+		System.out.println(factorial);	
+	
+	}
+
+}

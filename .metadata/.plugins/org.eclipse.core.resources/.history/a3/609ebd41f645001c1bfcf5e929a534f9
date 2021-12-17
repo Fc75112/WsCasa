@@ -1,0 +1,24 @@
+package tema4;
+
+import java.util.Scanner;
+
+public class Ejercicio3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		String frase;
+		frase= teclado.nextLine();
+		String espacio=" ";
+		String palabra;
+		palabra= teclado.nextLine();
+		int caracteres= frase.length();
+		if (caracteres<80) {
+			
+			
+		}
+		
+		
+	}
+
+}

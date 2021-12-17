@@ -1,0 +1,26 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class ejercicio5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		int numero;
+		int contador=0;
+		int suma=0;
+		boolean serie=true;
+		System.out.println("Introduce un numero");
+		while (serie==true) {
+			numero= teclado.nextInt();
+			contador++;
+			suma+=numero;
+			if (numero==0)
+			serie=false;
+			
+	}
+System.out.println("La suma de los numeros es "+suma);
+System.out.println("El total de numeros ha sido de "+contador);
+}
+}
