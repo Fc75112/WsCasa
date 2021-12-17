@@ -5,12 +5,13 @@ import java.util.Scanner;
 public class Ejercicio3 {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
 		String frase;
 		String palabra;
 		frase= teclado.nextLine();
 		palabra= teclado.nextLine();
-	 	int caracteres= frase.length();
+		int caracteres= frase.length();
 		if (caracteres<80) {
 			if (frase.indexOf(palabra)==-1) {
 				System.out.println("0");
@@ -18,7 +19,7 @@ public class Ejercicio3 {
 			
 			
 		} else System.out.print("no valido mu largo");
-
+		
 		
 	}
 

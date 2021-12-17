@@ -53,7 +53,7 @@ public class Ejercicio1 {
 			System.out.println("Es erroneo");
 			}
 		}
-	}else System.out.println("Ese no es un numero valido");
+	}else{System.out.println("Ese no es un numero valido");}
 	System.out.println("Has sacado un "+ resultado);
 	}
 
